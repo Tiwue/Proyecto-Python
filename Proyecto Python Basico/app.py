@@ -1,4 +1,4 @@
-#iniciar
+#Steven Gonzalez 201903974 
 intentos=2
 
 def jugar(intentos):
@@ -10,10 +10,10 @@ def jugar(intentos):
             print("\n Fallaste te quedan "+ str(intentos+1)+" intentos.\n Intentalo de nuevo:")
             jugar(intentos)
         else:
-            print("\n Perdiste el juego se acabaron los intentos :(\n")
+            print("\n Perdiste el juego se acabaron los intentos :( \n")
     elif str(respuesta) =="naranja" :
         
-        print("|  Ganaste era naranja | :) ")     
+        print(" \n¡Ganaste era naranja! :) \n ")     
        
 jugar(intentos)           
 
